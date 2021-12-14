@@ -1,0 +1,193 @@
+body {
+  background-color: gray;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.automat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.title {
+  text-align: center;
+}
+
+.wrapper {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 320px) {
+  .wrapper {
+    width: 320px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .wrapper {
+    width: 1200px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .i {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .i {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .i {
+    width: 390px;
+    height: 380px;
+  }
+}
+
+.automat_item {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 320px) {
+  .automat_item {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .automat_item {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .automat_item {
+    width: 390px;
+    height: 380px;
+  }
+}
+
+.automat_item + .automat_item {
+  margin-left: 15px;
+}
+
+@media screen and (min-width: 320px) {
+  .photo {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .photo {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .photo {
+    width: 390px;
+    height: 380px;
+  }
+}
+
+.spin_btn {
+  display: block;
+  width: 100%;
+}
+
+@media screen and (min-width: 320px) {
+  .spin_btn {
+    font-size: 24px;
+    font-weight: 400;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .spin_btn {
+    font-size: 44px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .spin_btn {
+    font-size: 64px;
+    font-weight: 800;
+  }
+}
+
+.spin_btn:hover {
+  cursor: pointer;
+}
+
+.result_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.result_item + .result_item {
+  margin-left: 30px;
+}
+
+@media screen and (min-width: 320px) {
+  .stat {
+    font-size: 18px;
+    color: white;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .stat {
+    font-size: 24px;
+    color: white;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .stat {
+    font-size: 34px;
+    color: white;
+  }
+}
+
+.name {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 34px;
+  margin-top: 20px;
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,167 @@
+body{
+    background-color: gray;
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.automat{
+    display: flex;
+}
+
+.title{
+    text-align: center;
+}
+
+.wrapper{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+    @media screen and (min-width:320px) {
+      width: 320px;
+
+}
+
+@media screen and (min-width:768px) {
+      width: 768px;
+}
+
+@media screen and (min-width:1200px) {
+      width: 1200px;
+}
+  }
+
+.i{
+    @media screen and (min-width:320px) {
+        width: 90px;
+        height: 90px;
+  
+  }
+  
+  @media screen and (min-width:768px) {
+        width: 150px;
+        height: 150px;
+  }
+  
+  @media screen and (min-width:1200px) {
+        width: 390px;
+        height: 380px;
+  
+    }
+}
+
+.automat_item{
+    margin-left: auto;
+    margin-right: auto;
+@media screen and (min-width:320px) {
+        width: 90px;
+        height: 90px;
+  
+  }
+  
+  @media screen and (min-width:768px) {
+        width: 150px;
+        height: 150px;
+  }
+  
+  @media screen and (min-width:1200px) {
+        width: 390px;
+        height: 380px;
+  
+    }
+
+}
+
+.automat_item + .automat_item{
+    margin-left: 15px;
+}
+
+.photo{
+    @media screen and (min-width:320px) {
+        width: 90px;
+        height: 90px;
+  
+  }
+  
+  @media screen and (min-width:768px) {
+        width: 150px;
+        height: 150px;
+  }
+  
+  @media screen and (min-width:1200px) {
+        width: 390px;
+        height: 380px;
+  
+    }
+}
+
+.spin_btn{
+    display: block;
+    width: 100%;
+
+    @media screen and (min-width:320px) {
+        font-size: 24px;
+    font-weight: 400;
+  
+  }
+  
+  @media screen and (min-width:768px) {
+    font-size: 44px;
+    font-weight: 600;
+  }
+  
+  @media screen and (min-width:1200px) {
+    font-size: 64px;
+    font-weight: 800;
+  
+    }
+
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.result_list{
+    display: flex;
+    justify-content: center;
+}
+
+.result_item+ .result_item{
+    margin-left: 30px;
+}
+
+.stat{
+    
+    @media screen and (min-width:320px) {
+        font-size: 18px;
+        color: white;
+  
+  }
+  
+  @media screen and (min-width:768px) {
+    font-size: 24px;
+    color: white;
+  }
+  
+  @media screen and (min-width:1200px) {
+    font-size: 34px;
+    color: white;
+    }
+}
+
+.name{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 34px;
+    margin-top: 20px;
+    color: white;
+}
